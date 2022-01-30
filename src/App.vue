@@ -12,12 +12,12 @@
     </Modal>
   </teleport>
 
-   <div v-if="showModalTwo">
+   <teleport to=".modals" v-if="showModalTwo">
     <Modal  @close="toggleModalTwo">
       <h1>Sign up to the newsletter</h1>
       <p>for updates and promo codes!</p>
     </Modal>
-  </div>
+  </teleport>
   <button @click.alt="toggleModal">Open Modal (alt)</button>
   <button @click="toggleModalTwo">Open Modal</button>
 </template>
@@ -49,7 +49,7 @@ export default {
 </script>
 
 <style>
-#app {
+#app, .modals {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
