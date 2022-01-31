@@ -1,19 +1,19 @@
-# modal-project
+lanjutan latihan VUE JS 3 bagian 2 (https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/) :
 
-## Project setup
-```
-npm install
-```
+#1 -  Refs
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#2 - Multiple Components
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#3 - Styles and Global Styles
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#4 - Passing data with Props
+
+#5 - Emitting custom events
+
+#6 - Click event modifiers
+
+#7 - Slots
+
+#8 - CHALLENGE
+
+#9 - Teleports
